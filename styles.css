@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url("https://images.unsplash.com/photo-1520981825232-ece5fae45120?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+h1 {
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    color: rgb(117, 137, 156);
+    text-shadow: 2px 2px 2px rgb(113, 113, 113);
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-size: 5vw!important;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.button {
+    width: 80px;
+    height: 40px;
+    margin: 2px;
+    margin-top: 20px;
+    background-color: rgb(117, 137, 156);
+    color: snow;
+    padding: 1px;
+    border-radius: 10px;
+    border-width: .5;
+    border-color: slategrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 3px rgb(77, 77, 77);;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(85, 89, 93);
+}
+
+.button:active {
+    background-color: slategrey;
+    box-shadow: 0 5px rgb(82, 82, 82);
+    transform: translateY(4px);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label {
+    text-align: center;
+    font-family: 'Courgette';
+}
+
+.text {
+    font-size: x-large;
+}
+
+input {
+    border-radius: 10px;
+    border-width: .5px;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.buttons input[type="radio"] {
+    display: none;
+  }
+  
+ .buttons input[type="radio"]:checked+label {
+    background-color: rgb(136, 171, 167);
+    color: black;
+  }
+
+.input-field {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70vw;
+}
+
+.submit {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px!important;
+}
+
+#main {
+    background: rgba(183, 201, 218, 0.598);
+    width: 90% !important;
+    height: 90% !important;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    box-shadow: 3px 3px 20px rgb(77, 77, 77);;
+}
